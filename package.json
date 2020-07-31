@@ -1,0 +1,15 @@
+{
+  "name": "draw-features",
+  "dependencies": {
+    "ol": "file:ol",
+    "olcs": "^2.10.0"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --experimental-scope-hoisting --public-url . index.html"
+  }
+}
