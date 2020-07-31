@@ -2,8 +2,11 @@ import 'ol/ol.css';
 import Draw from 'ol/interaction/Draw';
 import Map from 'ol/Map';
 import View from 'ol/View';
-import {OSM, Vector as VectorSource} from 'ol/source';
+import {OSM, Vector as VectorSource, Tile} from 'ol/source';
 import {Tile as TileLayer, Vector as VectorLayer} from 'ol/layer';
+import OLCesium from 'olcs/OLCesium.js';
+
+
 
 
 var raster = new TileLayer({
@@ -25,6 +28,7 @@ var map = new Map({
     zoom: 8
   }),
 });
+ ;
 
 var typeSelect = document.getElementById('type');
 
