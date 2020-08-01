@@ -4,7 +4,7 @@ import Map from 'ol/Map';
 import View from 'ol/View';
 import {OSM, Vector as VectorSource, Tile} from 'ol/source';
 import {Tile as TileLayer, Vector as VectorLayer} from 'ol/layer';
-import OLCesium from 'olcs/OLCesium.js';
+// import OLCesium from 'olcs/OLCesium.js';
 
 
 
@@ -55,7 +55,8 @@ typeSelect.onchange = function () {
 addInteraction();
 
 
-
+// var ol3d = olcs.OLCesium(map); // map is the ol.Map instance
+// ol3d.setEnabled(true)
 
 
 
