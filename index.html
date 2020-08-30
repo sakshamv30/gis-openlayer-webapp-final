@@ -28,13 +28,12 @@
     integrity="s84-OgVRvha3uATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
     <script src="ol/interaction/Draw.js"></script>
-   
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maptalks/dist/maptalks.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/maptalks/dist/maptalks.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <title>OpenStreetMapv1.0</title>
 </head>
-
-
-
 <body>
   <div class="header "">
     <h1>OpenStreetMapv1.0</h1>
@@ -55,9 +54,8 @@
     <div class="leftcolumn">
       <div class="card">
 
-        
+        <button class="threed">3D</button>
         <div id="map" class="map">
-
           <form class="form-inline">
             <label>Geometry type &nbsp;</label>
             <select id="type">
@@ -68,10 +66,8 @@
               <option value="None">None</option>
             </select>
           </form>
-          
           <script src="index.js"></script>
           <br>
-          
         </div> 
         <br> <br> <br>
         <hr>
